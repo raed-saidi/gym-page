@@ -1,0 +1,36 @@
+.body{
+  box-sizing: border-box;
+  display: flex;
+  margin: 0px;
+
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+li{
+  font-family: "Fira Sans", serif;
+  color: #E2E2E2;
+  font-size:18px ;
+  font-weight: 500;
+  list-style: none;
+ 
+}
+nav{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 120px;
+  gap: 130px;
+
+  background-color: #222222;
+}
+nav>h1{
+  font-family: "Fira Sans", serif;
+  color:#0A72AD ;
+  font-size: 24px;
+  font-weight: 700;
+}
