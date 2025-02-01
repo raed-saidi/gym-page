@@ -1,7 +1,8 @@
-.body{
+body{
+  
   box-sizing: border-box;
-  display: flex;
   margin: 0px;
+  padding: 0px;
 
 }
 
@@ -11,14 +12,20 @@
   gap: 60px;
 }
 li{
+ 
+  list-style: none;
   font-family: "Fira Sans", serif;
-  color: #E2E2E2;
   font-size:18px ;
+  color: #E2E2E2;
   font-weight: 500;
   list-style: none;
  
+  
+
 }
+
 nav{
+  
   margin: 0px;
   display: flex;
   justify-content: space-between;
@@ -33,4 +40,89 @@ nav>h1{
   color:#0A72AD ;
   font-size: 24px;
   font-weight: 700;
+}
+
+
+
+
+
+
+.Hero{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding:30px 0px 0px 150px  ;
+  margin-top: 0px;
+  background-color: #222222;
+}
+.Hero>h1{
+  color: #FFFFFF;
+  font-family: "Fira Sans", serif;
+  font-size: 65px;
+  font-weight: 500;
+  text-align: left;
+  max-width: 660px;
+
+
+}
+.Hero>p{
+  
+  
+  color: #FFFFFF;
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  max-width: 660px;
+  margin: 0px;
+
+
+}
+.Hero>button{
+  width: 200px;
+  margin-top:60px ;
+  margin-bottom: 40px;
+  background-color: #0A72AD;
+  padding: 20px 40px;
+  border: none;
+  font-family: "Fira Sans", serif;
+  font-size: 16px ;
+  font-weight: 600;
+  color: white;
+}
+.Hero>ul{
+  padding: 0px;
+  display: flex;
+  margin-top: 0px;
+  
+}
+
+.Hero>ul>li{
+  list-style:none;
+}
+.Hero>ul>li>p>span{
+  color: #2387C0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Fira Sans", serif;
+
+
+}
+
+
+.description{
+  font-family: "Fira Sans", serif;
+
+  max-width: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0px;
+}
+.item{
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Fira Sans", serif;
+  color: white;
 }
