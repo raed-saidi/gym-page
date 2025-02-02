@@ -3,8 +3,9 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className="Hero">
-        <h1>We Provide Architectural design and Construction</h1>
-        <p>​More than 100 building and housing projects that we have built. The building owner chose us over other contractors in Jakarta,because our work is different</p>
+  
+      <h1>We Provide Architectural design and Construction</h1>
+        <p>More than 100 building and housing projects that we have built. The building owner chose us over other contractors in Jakarta,because our work is different</p>
         <button>Discover More</button>
        <ul>
             <li>
@@ -28,6 +29,8 @@ const Hero = () => {
                     </li>
             
        </ul>
+      
+    
     </section>  
   )
 }
