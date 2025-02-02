@@ -192,3 +192,18 @@ nav>h1{
   max-width: 330px;
   text-align: left;
 }
+
+.cadre{
+  background-color: #2387C0;
+  border: solid 10px #BDDBED;
+  border-radius: 100px;
+  padding: 15px;
+  height: 40px;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
